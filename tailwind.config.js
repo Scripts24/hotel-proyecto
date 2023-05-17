@@ -1,13 +1,13 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./src/**/*.{html,js}"],
+  content: ["index.html", "./src/**/*.{html,js}"],
   theme: {
     extend: {
       fontFamily: {
         'mont': ['Montserrat', 'sans-serif'],
         'bar' : ['Barlow Condensed', 'sans-serif']
       }, backgroundImage: {
-        'header-image': "linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('../assets/img/header-image.jpg')",
+        'header-image': "linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../assets/img/header-image.jpg')",
 
       },
       colors: {
