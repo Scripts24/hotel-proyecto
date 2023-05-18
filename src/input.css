@@ -2,6 +2,30 @@
 @tailwind components;
 @tailwind utilities;
 
-.navbar-box{
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+/*Slider*/
+
+.slick-dots {
+    height  : 56px;
+    position: relative !important;
+    bottom  : -20px !important;
+}
+
+.slick-dots li {
+    margin-right: 10px;
+    margin-left : 10px;
+}
+
+.slick-dots button {
+    background-color: #fff !important;
+    border-radius   : 100%;
+    opacity         : 0.4;
+}
+
+.slick-dots button::before {
+    color  : #fff !important;
+    opacity: 0.4;
+}
+
+.slick-dots li.slick-active button {
+    opacity: 1;
 }

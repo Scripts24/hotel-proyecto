@@ -8,7 +8,7 @@ module.exports = {
         'bar' : ['Barlow Condensed', 'sans-serif']
       }, backgroundImage: {
         'header-image': "linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../assets/img/header-image.jpg')",
-
+        'banner-about': "linear-gradient(0deg, rgba(16, 16, 16, 0.7), rgba(16, 16, 16, 0.7)), url('../assets/img/banner-about.jpg')",
       },
       colors: {
         platinum: '#E0E0E0',
@@ -47,18 +47,6 @@ module.exports = {
           '700': '#43403f',
           '800': '#2e2b2c',
           '900': '#1c1a1c',
-        },
-        cocoa: {
-          '50': '#fcfbf8',
-          '100': '#faf0d9',
-          '200': '#f5d7b1',
-          '300': '#e7ae7d',
-          '400': '#da804f',
-          '500': '#c55d30',
-          '600': '#a8431f',
-          '700': '#823219',
-          '800': '#5a2313',
-          '900': '#39150c',
         },
         gold: {
           '50': '#fbfaf4',

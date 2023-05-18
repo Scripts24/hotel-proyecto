@@ -54,7 +54,7 @@
                 </ul>
             </div>
         </div>
-        <div class="header-main px-3 flex-1 flex">
+        <div class="header-main px-3 flex-1 flex" id="home">
             <div class="container max-w-[1200px] mx-auto flex flex-col">
                 <nav class="py-5 md:flex md:justify-between">
                     <div class="flex justify-between">
@@ -73,23 +73,23 @@
                         </button>
                         <ul class="flex flex-col w-full text-center mt-[60px] md:flex-row md:mt-0">
                             <li class="py-3 border-b-[1px] border-solid md:py-0 md:border-none">
-                                <a href="#"
+                                <a href="#home"
                                     class="text-black uppercase text-md tracking-[.12em] font-medium hover:text-gold-300 transition duration-300 ease-in-out md:mx-[14px] xl:mx-5 2xl:mx-6 md:text-white">Inicio</a>
                             </li>
                             <li class="py-3 border-b-[1px] border-solid md:py-0 md:border-none">
-                                <a href="#"
+                                <a href="#about"
                                     class="text-black uppercase text-md tracking-[.12em] font-medium hover:text-gold-300 transition duration-300 ease-in-out md:mx-[14px] xl:mx-5 2xl:mx-6 md:text-white">Conócenos</a>
                             </li>
                             <li class="py-3 border-b-[1px] border-solid md:py-0 md:border-none">
-                                <a href="#"
+                                <a href="#rooms"
                                     class="text-black uppercase text-md tracking-[.12em] font-medium hover:text-gold-300 transition duration-300 ease-in-out md:mx-[14px] xl:mx-5 2xl:mx-6 md:text-white">Espacios</a>
                             </li>
                             <li class="py-3 border-b-[1px] border-solid md:py-0 md:border-none">
-                                <a href="#"
+                                <a href="#services"
                                     class="text-black uppercase text-md tracking-[.12em] font-medium hover:text-gold-300 transition duration-300 ease-in-out md:mx-[14px] xl:mx-5 2xl:mx-6 md:text-white">Servicios</a>
                             </li>
                             <li class="py-3 md:py-0">
-                                <a href="#"
+                                <a href="#contact"
                                     class="text-black uppercase text-md tracking-[.12em] font-medium hover:text-gold-300 transition duration-300 ease-in-out md:mx-[14px] xl:mx-5 2xl:mx-6 md:text-white">Contacto</a>
                             </li>
                         </ul>
@@ -100,8 +100,7 @@
                         class="text-2xl xs:text-[32px] text-white font-bar tracking-[.04em] leading-[1.6] font-normal max-w-[800px] md:text-[42px] xl:text-[50px] x-l:leading-[1.3]">
                         El lugar perfecto para renovar energías y escapar de la rutina diaria</h1>
                     <form class="font-mont mt-16 bg-white w-full grid sm:grid-cols-2 lg:grid-cols-6">
-                        <button type = "button" class = "bg-gold-300 font-mont h-full min-h-[52px] flex items-center justify-center uppercase text-white transition duration-300 ease-in-out hover:bg-black"><a href="#">reservar</a></button>
-                        <div class="flex items-center justify-between px-3 py-4 border-[1px] border-solid">
+                        <div class="flex items-center justify-between px-3 py-2 border-[1px] border-solid">
                             <input data-toggle="datepicker" type="text"
                                 class="placeholder:text-black placeholder:uppercase text-sm outline-none border-none w-full"
                                 placeholder="desde">
@@ -109,7 +108,7 @@
                                 <img src="./assets/icons/calendar.svg">
                             </span>
                         </div>
-                        <div class="flex items-center justify-between px-3 py-4 border-[1px] border-solid">
+                        <div class="flex items-center justify-between px-3 py-2 border-[1px] border-solid">
                             <input data-toggle="datepicker" type="text"
                                 class="placeholder:text-black placeholder:uppercase text-sm outline-none border-none w-full"
                                 placeholder="hasta">
@@ -117,40 +116,104 @@
                                 <img src="./assets/icons/calendar.svg">
                             </span>
                         </div>
-                        <div class="px-2 py-4 border-[1px]">
+                        <div class="px-2 py-2 border-[1px] text-sm">
                             <select class="min-w-full uppercase text-black outline-none">
                                 <option disabled selected>adultos</option>
                                 <option>1</option>
                                 <option>2</option>
                                 <option>3</option>
-                                <option>4</option>
+                                <option>4+</option>
                             </select>
                         </div>
-                        <div class="px-2 py-4 border-[1px]">
+                        <div class="px-2 py-2 border-[1px] text-sm">
                             <select class="min-w-full uppercase text-black outline-none">
-                                <option disabled selected>niños</option>
+                                <option disabled selected>menores</option>
                                 <option>1</option>
                                 <option>2</option>
                                 <option>3</option>
-                                <option>4</option>
+                                <option>4+</option>
                             </select>
                         </div>
-                        <div class="px-2 py-4 border-[1px]">
+                        <div class="px-2 py-2 border-[1px] text-sm">
                             <select class="min-w-full uppercase text-black outline-none">
                                 <option disabled selected>habitación</option>
                                 <option>1</option>
                                 <option>2</option>
-                                <option>3</option>
+                                <option>3+</option>
                             </select>
                         </div>
+                        <button type="button"
+                            class="bg-gold-300 font-mont text-sm h-full min-h-[52px] flex items-center justify-center uppercase text-white transition duration-300 ease-in-out hover:bg-black"><a
+                                href="https://api.whatsapp.com/send?phone=114779865&text=Hola%21%20Quisiera%20reservar:%20"
+                                target="_blank">reservar</a></button>
                     </form>
                 </div>
             </div>
         </div>
     </header>
     <!-- Fin Header y nav -->
+    <!-- Inicio contenido principal-->
+    <main>
 
-    
+        <!-- Inicio sección Conócenos-->
+        <section id="about" class="bg-submarine-900 min-h-[640px] mx-auto px-3 flex items-center py-16">
+            <div class="container max-w-[1200px] mx-auto grid md:grid-cols-2 gap-14">
+                <div class="flex flex-col justify-center items-start">
+                    <h2
+                        class="text-gold-200 font-normal opacity-70 tracking-[.25em] font-bar text-xl sm:text-[38px] uppercase">
+                        Conócenos</h2>
+                    <h1 class="font-mont text-2xl sm:text-[38px] tracking-[.04em] font-normal py-3 text-white mb-3">
+                        Prévenza Resort</h1>
+                    <p class="opacity-60 font-light font-bar text-justify text-base sm:text-lg text-white">
+                        Desde 1991 ofrecemos el servicio All Inclusive con toques de nuestra cultura, detalles bien
+                        nuestros, un lugar donde se conectan experiencias auténticas con la esencia de la naturaleza. La
+                        estadía en Prévenza incluye todo lo necesario para vivir unas vacaciones inolvidables, por eso
+                        en nuestro Resort no tenés que preocuparte por nada.
+                    </p>
+                </div>
+                <!-- Slick slider -->
+                <div class="about-slider overflow-hidden">
+                    <div class="h-[475px]">
+                        <img class="w-full h-full object-cover" src="./assets/img/slider/slider2.jpg">
+                    </div>
+                    <div class="h-[475px]">
+                        <img class="w-full h-full object-cover" src="./7assets/img/slider/slider1.jpg">
+                    </div>
+                    <div class="h-[475px]">
+                        <img class="w-full h-full object-cover" src="./assets/img/slider/slider3.jpg">
+                    </div>
+                    <div class="h-[475px]">
+                        <img class="w-full h-full object-cover" src="./assets/img/slider/slider4.jpg">
+                    </div>
+                    <div class="h-[475px]">
+                        <img class="w-full h-full object-cover" src="./assets/img/slider/slider5.jpg">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div
+            class="min-h-[600px] py-16 flex flex-col items-center justify-center bg-banner-about bg-center bg-cover bg-fixed bg-no-repeat px-3">
+            <div class="container max-w-[1200px] mx-auto text-white text-center">
+                <h2 class="font-mont font-normal text-2xl sm:text-[38px] tracking-[.04em] mb-3">
+                    Relájate en nuestros espacios amplios y confortables
+                </h2>
+                <div class="flex flex-col items-center justify-center">
+                    <img  class="w-[250px] h-[20px] " src="./assets/img/decorativo.png">
+                    <p class="mt-8 tracking-[.04em] text-lg sm:text-2xl font-bar font-light max-w-[600px] mx-auto leading-7 sm:leading-9">Disfrute de nuestras instalaciones elegantes y modernas, que incluyen cómodas habitaciones, terraza con jacuzzi y vista a la ciudad, spa y restaurante. Nuestra ubicación privilegiada lo hace accesible a lo mejor de la gastronomía, el diseño y la vida nocturna.
+                        Ya sea que viaje por negocios o por placer, disfrute de una cómoda estadía, le aseguramos un momento inolvidable con nuestro servicio personalizado.</p>
+                </div>
+            </div>
+        </div>
+        <!-- Fin sección Conócenos -->
+
+
+    </main>
+    <!-- Fin contenido principal -->
+    <!-- Inicio Footer-->
+    <footer>
+
+    </footer>
+    <!-- Fin Footer -->
 
     <!-- Jquery cdn -->
     <script src="https://code.jquery.com/jquery-3.6.4.js"

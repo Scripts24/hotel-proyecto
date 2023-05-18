@@ -6,5 +6,17 @@ $(document).ready(function(){
     //Date picker
     $('[data-toggle="datepicker"]').datepicker();
 
+
+    // Slick slider
+    $('.about-slider').slick({
+        dots: true,
+        infinite: true,
+        speed: 300,
+        slidesToShow: 1,
+        arrows: false,
+        adaptiveHeight: true,
+        autoplay: true
+    });
+
 })
 
