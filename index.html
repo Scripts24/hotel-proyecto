@@ -64,34 +64,93 @@
                             <i class="fas fa-bars"></i>
                         </button>
                     </div>
-                    <div class="navbar-box fixed top-0 right-0 w-[280px] h-full bg-white p-5 flex flex-col items-center font-bar translate-x-full transition duration-300 ease-in-out md:relative md:translate-x-0 md:bg-transparent md:flex-row md:h-auto md:w-auto md:p-0">
-                        <button type = "button " class = "absolute top-[18px] right-[18px] z-50 text-2xl hover:rotate-180 transition duration-300 ease-in-out md:hidden" id = "navbar-hide-btn">
+                    <div
+                        class="navbar-box fixed top-0 right-0 w-[280px] h-full bg-white p-5 flex flex-col items-center font-bar translate-x-full transition duration-300 ease-in-out md:relative md:translate-x-0 md:bg-transparent md:flex-row md:h-auto md:w-auto md:p-0">
+                        <button type="button "
+                            class="absolute top-[18px] right-[18px] z-50 text-2xl hover:rotate-180 transition duration-300 ease-in-out md:hidden"
+                            id="navbar-hide-btn">
                             <i class="fa-solid fa-xmark"></i>
                         </button>
-                        <ul class = "flex flex-col w-full text-center mt-[60px] md:flex-row md:mt-0">
+                        <ul class="flex flex-col w-full text-center mt-[60px] md:flex-row md:mt-0">
                             <li class="py-3 border-b-[1px] border-solid md:py-0 md:border-none">
-                                <a href = "#" class = "text-black uppercase text-md tracking-[.12em] font-medium hover:text-gold-300 transition duration-300 ease-in-out md:mx-[14px] xl:mx-5 2xl:mx-6 md:text-white">Inicio</a>
+                                <a href="#"
+                                    class="text-black uppercase text-md tracking-[.12em] font-medium hover:text-gold-300 transition duration-300 ease-in-out md:mx-[14px] xl:mx-5 2xl:mx-6 md:text-white">Inicio</a>
                             </li>
                             <li class="py-3 border-b-[1px] border-solid md:py-0 md:border-none">
-                                <a href = "#" class = "text-black uppercase text-md tracking-[.12em] font-medium hover:text-gold-300 transition duration-300 ease-in-out md:mx-[14px] xl:mx-5 2xl:mx-6 md:text-white">Conócenos</a>
+                                <a href="#"
+                                    class="text-black uppercase text-md tracking-[.12em] font-medium hover:text-gold-300 transition duration-300 ease-in-out md:mx-[14px] xl:mx-5 2xl:mx-6 md:text-white">Conócenos</a>
                             </li>
                             <li class="py-3 border-b-[1px] border-solid md:py-0 md:border-none">
-                                <a href = "#" class = "text-black uppercase text-md tracking-[.12em] font-medium hover:text-gold-300 transition duration-300 ease-in-out md:mx-[14px] xl:mx-5 2xl:mx-6 md:text-white">Espacios</a>
+                                <a href="#"
+                                    class="text-black uppercase text-md tracking-[.12em] font-medium hover:text-gold-300 transition duration-300 ease-in-out md:mx-[14px] xl:mx-5 2xl:mx-6 md:text-white">Espacios</a>
                             </li>
                             <li class="py-3 border-b-[1px] border-solid md:py-0 md:border-none">
-                                <a href = "#" class = "text-black uppercase text-md tracking-[.12em] font-medium hover:text-gold-300 transition duration-300 ease-in-out md:mx-[14px] xl:mx-5 2xl:mx-6 md:text-white">Servicios</a>
+                                <a href="#"
+                                    class="text-black uppercase text-md tracking-[.12em] font-medium hover:text-gold-300 transition duration-300 ease-in-out md:mx-[14px] xl:mx-5 2xl:mx-6 md:text-white">Servicios</a>
                             </li>
                             <li class="py-3 md:py-0">
-                                <a href = "#" class = "text-black uppercase text-md tracking-[.12em] font-medium hover:text-gold-300 transition duration-300 ease-in-out md:mx-[14px] xl:mx-5 2xl:mx-6 md:text-white">Contacto</a>
+                                <a href="#"
+                                    class="text-black uppercase text-md tracking-[.12em] font-medium hover:text-gold-300 transition duration-300 ease-in-out md:mx-[14px] xl:mx-5 2xl:mx-6 md:text-white">Contacto</a>
                             </li>
                         </ul>
                     </div>
                 </nav>
+                <div class="flex-1 flex items-center justify-stretch flex-col text-center py-12">
+                    <h1
+                        class="text-2xl xs:text-[32px] text-white font-bar tracking-[.04em] leading-[1.6] font-normal max-w-[800px] md:text-[42px] xl:text-[50px] x-l:leading-[1.3]">
+                        El lugar perfecto para renovar energías y escapar de la rutina diaria</h1>
+                    <form class="font-mont mt-16 bg-white w-full grid sm:grid-cols-2 lg:grid-cols-6">
+                        <button type = "button" class = "bg-gold-300 font-mont h-full min-h-[52px] flex items-center justify-center uppercase text-white transition duration-300 ease-in-out hover:bg-black"><a href="#">reservar</a></button>
+                        <div class="flex items-center justify-between px-3 py-4 border-[1px] border-solid">
+                            <input data-toggle="datepicker" type="text"
+                                class="placeholder:text-black placeholder:uppercase text-sm outline-none border-none w-full"
+                                placeholder="desde">
+                            <span class="cursor-pointer">
+                                <img src="./assets/icons/calendar.svg">
+                            </span>
+                        </div>
+                        <div class="flex items-center justify-between px-3 py-4 border-[1px] border-solid">
+                            <input data-toggle="datepicker" type="text"
+                                class="placeholder:text-black placeholder:uppercase text-sm outline-none border-none w-full"
+                                placeholder="hasta">
+                            <span class="cursor-pointer">
+                                <img src="./assets/icons/calendar.svg">
+                            </span>
+                        </div>
+                        <div class="px-2 py-4 border-[1px]">
+                            <select class="min-w-full uppercase text-black outline-none">
+                                <option disabled selected>adultos</option>
+                                <option>1</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>4</option>
+                            </select>
+                        </div>
+                        <div class="px-2 py-4 border-[1px]">
+                            <select class="min-w-full uppercase text-black outline-none">
+                                <option disabled selected>niños</option>
+                                <option>1</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>4</option>
+                            </select>
+                        </div>
+                        <div class="px-2 py-4 border-[1px]">
+                            <select class="min-w-full uppercase text-black outline-none">
+                                <option disabled selected>habitación</option>
+                                <option>1</option>
+                                <option>2</option>
+                                <option>3</option>
+                            </select>
+                        </div>
+                    </form>
+                </div>
             </div>
         </div>
-
     </header>
     <!-- Fin Header y nav -->
+
+    
 
     <!-- Jquery cdn -->
     <script src="https://code.jquery.com/jquery-3.6.4.js"
