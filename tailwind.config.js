@@ -9,6 +9,7 @@ module.exports = {
       }, backgroundImage: {
         'header-image': "linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../assets/img/header-image.jpg')",
         'banner-about': "linear-gradient(0deg, rgba(16, 16, 16, 0.7), rgba(16, 16, 16, 0.7)), url('../assets/img/banner-about.jpg')",
+        'banner-services': "linear-gradient(0deg, rgba(16, 16, 16, 0.7), rgba(16, 16, 16, 0.7)), url('../assets/img/banner-services.jpg')",
       },
       colors: {
         platinum: '#E0E0E0',
