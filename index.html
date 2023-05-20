@@ -24,6 +24,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/datepicker/1.0.10/datepicker.min.css"
         integrity="sha512-YdYyWQf8AS4WSB0WWdc3FbQ3Ypdm0QCWD2k4hgfqbQbRCJBEgX0iAegkl2S1Evma5ImaVXLBeUkIlP6hQ1eYKQ=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+
     <link rel="stylesheet" href="./dist/output.css">
     <link rel="stylesheet" href="./dist/style.css">
 </head>
@@ -159,7 +160,8 @@
     <!-- Fin Header y nav -->
     <!-- Inicio contenido principal-->
     <main>
-
+        <!--Upload-->
+        <span class="top"><i class="fa-solid fa-arrow-up"></i></span>
         <!-- Inicio sección Conócenos-->
         <section id="about" class="bg-submarine-900 min-h-[640px] mx-auto px-3 flex items-center py-16">
             <div class="container max-w-[1200px] mx-auto grid md:grid-cols-2 gap-14">
@@ -225,7 +227,7 @@
                     <img class="w-[250px] h-[20px] " src="./assets/img/decorativo.png">
                 </div>
 
-                <div class="grid gap-3 sm:grid-cols-2 md:grid-cols-3 mt-10">
+                <div class="grid gap-3 sm:grid-cols-2 md:grid-cols-3 mt-10 ">
                     <div
                         class="group min-h-[260px] relative after:absolute after:content-[''] after:left-0 after:top-0 after:w-full after:h-full after:bg-gradient-to-t after:from-black/75 after:to-black/5 after:opacity-0 hover:after:opacity-100 after:transition after:duration-300 after:ease-in-out overflow-hidden">
                         <img src="./assets/img/espacios/bar.jpg" class="w-full h-full object-cover">
@@ -398,13 +400,13 @@
                             placeholder="Mail" required>
                     </div>
                     <div class="my-3">
-                        <textarea  cols="30"
+                        <textarea cols="30"
                             class="outline-none py-4 px-5 bg-transparent caret-white text-white text-lg tracking-[.04em] font-light font-bar placeholder:text-white border-white border-solid border-b-[1px] w-full"
                             placeholder="Ingrese su consulta" required></textarea>
                     </div>
                     <div class="flex items-center justify-center">
                         <button
-                            class="bg-white font-bar px-4 min-w-[150px] min-h-[48px] inline-flex items-center justify-center uppercase text-black transition duration-300 ease-in-out hover:bg-black hover:text-white mt-8 tracking-widest">Enviar</button>
+                            class="bg-white  font-bar px-4 min-w-[150px] min-h-[48px] inline-flex items-center justify-center uppercase text-black transition duration-300 ease-in-out hover:bg-black hover:text-white mt-8 tracking-widest">Enviar</button>
                     </div>
                 </form>
             </div>
@@ -422,18 +424,18 @@
     <footer class="bg-submarine-900 text-center py-10">
         <div class="flex items-center gap-5 justify-center mb-4">
             <a href="https://www.messenger.com/" target="_blank">
-                <span class = "text-white text-lg">         
+                <span class="text-white text-lg">
                     <i class="fa-brands fa-facebook-messenger"></i>
-                </span>  
+                </span>
             </a>
             <a href="https://api.whatsapp.com/send?phone=542215656665&text=Hola%21%20" target="_blank">
-                <span class = "text-white text-lg">         
+                <span class="text-white text-lg">
                     <i class="fa-brands fa-whatsapp"></i>
                 </span>
             </a>
             <a href="mailto:prevenza_resort@gmail.com" target="_blank">
-                <span class = "text-white text-lg">         
-                <i class = "fas fa-envelope"></i>
+                <span class="text-white text-lg">
+                    <i class="fas fa-envelope"></i>
                 </span>
             </a>
         </div>
@@ -444,8 +446,8 @@
             <a href="#" class="font-mont text-white">Inicio</a>
             <a href="#" class="font-mont text-white">Conócenos</a>
             <a href="#" class="font-mont text-white">Espacios</a>
-            <a href="# "class="font-mont  text-white" >Servicios</a>
-            <a href="# "class="font-mont  text-white" >Contacto</a>
+            <a href="# " class="font-mont  text-white">Servicios</a>
+            <a href="# " class="font-mont  text-white">Contacto</a>
         </div>
         <div class="flex items-center justify-center flex-col">
             <p class="font-mont text-gold-200 text-lg mb-4"> Prévenza Resort</p>
@@ -457,7 +459,6 @@
         </div>
     </footer>
     <!-- Fin Footer -->
-
     <!-- Jquery cdn -->
     <script src="https://code.jquery.com/jquery-3.6.4.js"
         integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E=" crossorigin="anonymous"></script>

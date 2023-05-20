@@ -29,3 +29,45 @@
 .slick-dots li.slick-active button {
     opacity: 1;
 }
+
+/*Upload*/
+
+.top {
+    display: none;
+}
+
+.fa-arrow-up {
+    color        : #dcb84f;
+    font-size    : 1.2rem;
+    background   : #E0E0E0;
+    text-align   : center;
+    right        : 3%;
+    padding      : .8rem;
+    border-radius: 50%;
+    width        : 2.5rem;
+    height       : 2.5rem;
+    line-height  : .8;
+    position     : fixed;
+    bottom       : 20rem;
+    transition   : all .5s ease;
+    animation    : upload 3s infinite alternate;
+    cursor       : pointer;
+    z-index      : 10;
+}
+
+.fa-arrow-up:hover{
+    background: #dcb84f;
+    color: #E0E0E0;
+}
+
+
+
+@keyframes upload {
+    0% {
+        transform: translateY(0);
+    }
+
+    100% {
+        transform: translateY(-15px);
+    }
+}
