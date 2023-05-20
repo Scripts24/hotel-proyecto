@@ -717,6 +717,10 @@ video {
   min-height: ;
 }
 
+.min-h-\[480px\] {
+  min-height: 480px;
+}
+
 .w-2\/5 {
   width: 40%;
 }
